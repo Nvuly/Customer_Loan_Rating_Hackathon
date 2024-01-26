@@ -1,0 +1,17 @@
+df2
+
+대출금액 cleaned_loan
+
+연간소득 cleaned_year7
+
+부채_대비_소득_비율 cleaned_earn
+
+총계좌수 cleaned_acc2
+
+최근_2년간_연체_횟수 cleaned_year
+
+총상환원금 cleaned_origin8
+
+총상환이자 cleamed_int13
+
+총연체금액 cleaned_debt
