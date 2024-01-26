@@ -15,3 +15,27 @@ df2
 총상환이자 cleamed_int13
 
 총연체금액 cleaned_debt
+
+
+
+
+
+data = [cleaned_df.loc[:,'ID'],
+        cleaned_df.loc[:, '대출금액'],
+        cleaned_df.loc[:, '대출기간'],
+        cleaned_df.loc[:, '근로기간'],
+        cleaned_year5,
+        cleaned_ratio,
+        cleaned_counts2,
+        cleaned_df.loc[:,'대출목적'],
+        cleaned_sec,
+        cleaned_int13,
+        cleaned_debt6,
+        cleaned_rm2,
+        df_train.loc[:,'대출등급']]
+
+df_concat = pd.concat(data,
+                      axis=1,
+                      join='inner')
+
+print(df_concat)
